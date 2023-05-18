@@ -17,5 +17,6 @@ public class FormatterTest {
         formatter.format("%d * %d = %d", x, x, x * x);
         JOptionPane.showMessageDialog(null, formatter.toString());
         formatter.close();
+        System.out.println(" fsa");
     }
 }
