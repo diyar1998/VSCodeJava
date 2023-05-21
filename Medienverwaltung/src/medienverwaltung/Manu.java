@@ -19,28 +19,25 @@ public class Manu {
     }
 
     public static void main(String[] args) {
-        while (true)
-        {
+        while (true) {
             Ausgabe();
-//            int in = Integer.parseInt(JOptionPane.showInputDialog(null, "Gib ein Zahl ein von 1-6!"));
+            // int in = Integer.parseInt(JOptionPane.showInputDialog(null, "Gib ein Zahl ein
+            // von 1-6!"));
             Scanner sc = new Scanner(System.in);
 
             int in = -1;
-            try
-            {
+            try {
                 in = sc.nextInt();
-            } catch (Exception e)
-            {
-//                JOptionPane.showConfirmDialog(null, "Bitte ein Gültiges Wert eingeben!", "Kein Gültiges Eingabe", -1);
+            } catch (Exception e) {
+                // JOptionPane.showConfirmDialog(null, "Bitte ein Gültiges Wert eingeben!",
+                // "Kein Gültiges Eingabe", -1);
                 System.out.println("Bitte ein Gültiges Wert eingeben!");
             }
-            if (in >= 1 || in <= 6)
-            {
-                switch (in)
-                {
+            if (in >= 1 || in <= 6) {
+                switch (in) {
                     case 1:
                         int dauer = 0,
-                         jahr = 0;
+                                jahr = 0;
 
                         String interpret = JOptionPane.showInputDialog(null, "Interpret:");
                         String titel = JOptionPane.showInputDialog(null, "Titel:");
@@ -75,14 +72,11 @@ public class Manu {
     }
 
     public static int LeseEinZahl(String message) {
-        while (true)
-        {
-            try
-            {
+        while (true) {
+            try {
                 return Integer.parseInt(JOptionPane.showInputDialog(null, message));
 
-            } catch (HeadlessException | NumberFormatException e)
-            {
+            } catch (HeadlessException | NumberFormatException e) {
                 JOptionPane.showConfirmDialog(null, "Bitte ein Gültige eingeben!", "Kein Gültige eingabe", -1);
             }
         }
