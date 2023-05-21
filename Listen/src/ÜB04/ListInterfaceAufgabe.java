@@ -7,8 +7,7 @@ public class ListInterfaceAufgabe {
 
     static void fillList(List<String> list) {
         // Zahlen von 0 bis 20 als Zeichenketten (Strings) einf�gen
-        for (int a = 0; a <= 20; a++)
-        {
+        for (int a = 0; a <= 20; a++) {
             list.add("" + a);
         }
 
@@ -23,8 +22,7 @@ public class ListInterfaceAufgabe {
     // foreach-Schleife iterieren und Elemente ausgeben
     static void printList(List<String> list) {
         // TODO
-        for (String s : list)
-        {
+        for (String s : list) {
             System.out.print(s + " ");
         }
         System.out.println("");
@@ -34,10 +32,8 @@ public class ListInterfaceAufgabe {
     static void remove5List(List<String> list) {
         // TODO
         ListIterator<String> it = list.listIterator();
-        while (it.hasNext())
-        {
-            if (Integer.parseInt(it.next()) % 5 == 0)
-            {
+        while (it.hasNext()) {
+            if (Integer.parseInt(it.next()) % 5 == 0) {
                 it.remove();
             }
         }

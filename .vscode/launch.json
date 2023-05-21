@@ -1,0 +1,92 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "AnonymTest",
+            "request": "launch",
+            "mainClass": "VL7.AnonymTest",
+            "projectName": "VSCodeJava_b52d3e3"
+        },
+        {
+            "type": "java",
+            "name": "Testen",
+            "request": "launch",
+            "mainClass": "medienverwaltung.Testen",
+            "projectName": "VSCodeJava_b52d3e3"
+        },
+        {
+            "type": "java",
+            "name": "Manu",
+            "request": "launch",
+            "mainClass": "medienverwaltung.Manu",
+            "projectName": "VSCodeJava_b52d3e3"
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}",
+            "vmArgs": "--module-path \"C:/Program/Files/Java/javafx-sdk-19.0.2.1/lib\" --add-modules javafx.controls.javafx.fxml"
+        },
+        {
+            "type": "java",
+            "name": "Aufgabe1",
+            "request": "launch",
+            "mainClass": "BSP03ListeMitVerkettung.Aufgabe1",
+            "projectName": "VSCodeJava_b52d3e3"
+        },
+        {
+            "type": "java",
+            "name": "ListeTest",
+            "request": "launch",
+            "mainClass": "BSP03ListeMitVerkettung.ListeTest",
+            "projectName": "VSCodeJava_b52d3e3"
+        },
+        {
+            "type": "java",
+            "name": "ListInterfaceAufgabe",
+            "request": "launch",
+            "mainClass": "ÜB04.ListInterfaceAufgabe",
+            "projectName": "VSCodeJava_b52d3e3"
+        },
+        {
+            "type": "java",
+            "name": "StackTest",
+            "request": "launch",
+            "mainClass": "ÜB04.StackTest",
+            "projectName": "VSCodeJava_b52d3e3"
+        },
+        {
+            "type": "java",
+            "name": "Rekursion",
+            "request": "launch",
+            "mainClass": "ÜB05.UEB05.Aufgabe1.Rekursion",
+            "projectName": "VSCodeJava_b52d3e3"
+        },
+        {
+            "type": "java",
+            "name": "RekusionsAnalyse",
+            "request": "launch",
+            "mainClass": "ÜB05.UEB05.Aufgabe2.RekusionsAnalyse",
+            "projectName": "VSCodeJava_b52d3e3"
+        },
+        {
+            "type": "java",
+            "name": "Ulam",
+            "request": "launch",
+            "mainClass": "ÜB05.UEB05.Aufgabe3.Ulam",
+            "projectName": "VSCodeJava_b52d3e3"
+        },
+        {
+            "type": "java",
+            "name": "FibonacciTest",
+            "request": "launch",
+            "mainClass": "ÜB05.UEB05.Aufgabe4.FibonacciTest",
+            "projectName": "VSCodeJava_b52d3e3"
+        }
+    ]
+}

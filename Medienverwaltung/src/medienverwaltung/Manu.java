@@ -1,6 +1,7 @@
 package medienverwaltung;
 
 import java.awt.HeadlessException;
+import java.io.OutputStream;
 import java.util.Scanner;
 import javax.swing.JOptionPane;
 
@@ -13,16 +14,17 @@ public class Manu {
                 + "\n1.Audio aufnehmen"
                 + "\n2.Biild aufnehmen"
                 + "\n3.Zeige alle Medien"
-                + "\n4.Zeige neues Medium"
-                + "\n5.Berechne durchschnittliches Erscheinungsjahr"
-                + "\n6.Beenden\n\nGib ein Zahl ein von 1-6!\n");
+                + "\n4.Medienliste in Datei schreiben"
+                + "\n5.Zeige neues Medium"
+                + "\n6.Berechne durchschnittliches Erscheinungsjahr"
+                + "\n7.Beenden\n\nGib ein Zahl ein von 1-6!\n");
     }
 
     public static void main(String[] args) {
         while (true) {
             Ausgabe();
-            // int in = Integer.parseInt(JOptionPane.showInputDialog(null, "Gib ein Zahl ein
-            // von 1-6!"));
+            // int in = Integer.parseInt(JOptionPane.showInputDialog(null, "Gib ein Zahl
+            // einvon 1-6!"));
             Scanner sc = new Scanner(System.in);
 
             int in = -1;
@@ -59,9 +61,14 @@ public class Manu {
                         mw.zeigeMedien();
                         break;
                     case 4:
+                        String FileName = JOptionPane.showInputDialog(null, "Datei Name!");
+                        if (!FileName.isEmpty())
+
+                            break;
+                    case 5:
                         mw.sucheNeuesMedium();
                         break;
-                    case 5:
+                    case 6:
                         System.out.println(mw.berchneErscheinungsjahr());
                         break;
                     default:
