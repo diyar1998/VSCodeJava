@@ -1,0 +1,17 @@
+
+.root{
+    -fx-background-color: #111111;
+}
+.lable{
+    -fx-font-size:20;
+    -fx-font-family:"Lucida console";
+    -fx-background-color: #ffffff;
+
+
+}
+/*ID's'*/
+#labelId{
+    -fx-font-size:50;
+    -fx-font-family:"Lucida console";
+    -fx-background-color: #ffffff;
+}

@@ -6,19 +6,19 @@ import javafx.scene.control.Label;
 import javafx.scene.text.Font;
 import javafx.stage.Stage;
 
-public class Main extends Application{
+public class Main extends Application {
 
-	public void start(Stage primaryStage){
-         Label label = new Label("Hallo JavaFX");
-		 label.setFont(new Font(40));
-		 Scene scene = new Scene(label);
+	public void start(Stage primaryStage) {
+		Label label = new Label("Hallo JavaFX");
+		label.setFont(new Font(40));
+		Scene scene = new Scene(label);
 
-		 primaryStage.setScene(scene);
+		primaryStage.setScene(scene);
 
-		 primaryStage.show();
+		primaryStage.show();
 	}
 
-	public static void main(String[] args){
+	public static void main(String[] args) {
 		launch();
 	}
 }
